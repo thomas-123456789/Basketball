@@ -1,6 +1,6 @@
 import streamlit as st
 import base64
-import st_pages
+#import st_pages
 from streamlit import switch_page
 
 st.set_page_config(layout="wide")
