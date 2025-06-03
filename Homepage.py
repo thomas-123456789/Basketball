@@ -212,9 +212,15 @@ st.markdown('<div class="button-row">', unsafe_allow_html=True)
 col1, col2, col3, col4, col5 = st.columns([1, 1, 1, 1, 1])
 with col2:
     st.button("Athletes")
+    with col2:
+    if st.button("Athletes"):
+        st.switch_page("Player")
 with col4:
     st.button("Coaching")
 st.markdown('</div>', unsafe_allow_html=True)
+    with col4:
+    if st.button("Coaching"):
+        st.switch_page("Coaching")
 
 if st.button("Chat With AI", key = "chat_bot"):
     chat_bot()
