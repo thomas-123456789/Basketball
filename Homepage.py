@@ -210,8 +210,8 @@ st.markdown("""
 st.markdown('<div class="button-row">', unsafe_allow_html=True)
 
 col1, col2, col3, col4, col5 = st.columns([1, 1, 1, 1, 1])
-with col1:
+with col2:
     st.link_button("Athletes", "https://basketball-website.streamlit.app/Player")
-with col3:
+with col4:
     st.link_button("Coaching", "https://basketball-website.streamlit.app/Coaching")
 
