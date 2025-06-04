@@ -215,8 +215,3 @@ with col1:
 with col3:
     st.link_button("Coaching", "https://basketball-website.streamlit.app/Coaching")
 
-
-st.markdown('</div>', unsafe_allow_html=True)
-if 
-st.button("Chat With AI", key = "chat_bot"):
-chatbot()
