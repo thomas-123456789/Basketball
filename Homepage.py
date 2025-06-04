@@ -211,9 +211,9 @@ st.markdown('<div class="button-row">', unsafe_allow_html=True)
 
 col1, col2, col3, col4, col5 = st.columns([1, 1, 1, 1, 1])
 with col2:
-    st.link_button("Athletes")
+    st.button("Athletes")
 with col4:
-    st.link_button(https://basketball-website.streamlit.app/Player, "Coaching")
+    st.button("Coaching")
 st.markdown('</div>', unsafe_allow_html=True)
     
 
