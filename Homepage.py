@@ -213,7 +213,7 @@ col1, col2, col3, col4, col5 = st.columns([1, 1, 1, 1, 1])
 with col2:
     st.link_button("Athletes", "https://basketball-website.streamlit.app/Player")
 with col4:
-    st.button("Coaching", "https://basketball-website.streamlit.app/Coaching")
+    st.link_button("Coaching", "https://basketball-website.streamlit.app/Coaching")
 st.markdown('</div>', unsafe_allow_html=True)
     
 
